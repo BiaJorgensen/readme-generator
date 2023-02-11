@@ -14,14 +14,14 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
   ## Table of Contents
-  [Description](https://github.com/${data.username}/readme-generator#description)
-  [Installation](#installation)
-  [Usage](#usage)
-  [Credits](#credits)
-  [License](#license)
-  [Contributing](#contributing)
-  [Tests](#tests)
-  [Questions](#questions)
+  [Description](#description)<br>
+  [Installation](#installation)<br>
+  [Usage](#usage)<br>
+  [Credits](#credits)<br>
+  [License](#license)<br>
+  [Contributing](#contributing)<br>
+  [Tests](#tests)<br>
+  [Questions](#questions)<br>
   ## Description
   ${data.description}
   ## Installation
@@ -35,10 +35,8 @@ function generateMarkdown(data) {
   ## Tests
   ${data.test}
   ## Questions
-  Visit my GitHub profile page: https://github.com/${data.username}
+  Visit my GitHub profile page: https://github.com/${data.username}<br>
   If you have additional questions, please send an email to ${data.email}
-
-
 `;
 }
 
