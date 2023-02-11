@@ -15,17 +15,20 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ## Description
-
+  ${data.description}
   ## Installation
-
+  ${data.installation}
   ## Usage
-
-  ## Contrbuting
-
+  ${data.usage}
+  ## License
+  ${data.license}
+  ## Contributing
+  ${data.contribution}
   ## Tests
-
+  ${data.test}
   ## Questions
-
+  Visit my GitHub profile: ${data.username}
+  If you have additional questions, please send an email to ${data.email}
 
 
 `;
