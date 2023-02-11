@@ -51,16 +51,25 @@ const questions = [{
     message: 'What is your email?',
   }];
 
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+// TODO: Create a function to write README file
+function writeToFile(data) {
+  fs.writeFile('README.md', generateMarkdown(data), (err) => {
+    if (err) throw err;
+    console.log('README.md has been created');
+  })
+}
 
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
-
-
-
-inquirer
+// TODO: Create a function to initialize app
+function init() {
+  inquirer
   .prompt(questions)
+    .then((data) => {writeToFile(data)})
+    
+ 
+}
+
+// Function call to initialize app
+init();
+
+
+
