@@ -1,4 +1,5 @@
 # q
+  [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)];
   ## Table of Contents
   [Description](#description)<br>
   [Installation](#installation)<br>
@@ -15,11 +16,11 @@
   ## Usage
   r
   ## License
-  CC0
+  Eclipse Public License 1.0
   ## Contributing
   t
   ## Tests
-  y
+  g
   ## Questions
-  Visit my GitHub profile page: https://github.com/u<br>
-  If you have additional questions, please send an email to i
+  Visit my GitHub profile page: https://github.com/j<br>
+  If you have additional questions, please send an email to s

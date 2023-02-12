@@ -1,8 +1,9 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(data) {
-data.license === 'None' ? "" : renderLicenseLink(data.license);
-const licenses = [
+function renderLicenseBadge(license) {
+  if (license === 'None') ""
+ else {
+  const licenses = [
   {license: 'Apache 2.0 License',badge: '[![License](https://img.shields.io/badge/License-Apache_2.0-yellowgreen.svg)]'},
   {license: 'Boost Software License 1.0',badge: '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]'},
   {license: 'BSD 3-Clause License',badge: '[![License](https://img.shields.io/badge/License-BSD_3--Clause-orange.svg)]'},
@@ -35,6 +36,13 @@ const licenses = [
   {license: 'WTFPL',badge: '[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)]'},
   {license: 'The zlib/libpng License',badge: '[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)]'},
 ];
+
+for (const badge of licenses){
+  if (badge.license === license) return badge.badge
+}
+
+}
+
 
 }
 
@@ -90,8 +98,8 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  renderLicenseBadge(data);
   return `# ${data.title}
+  ${renderLicenseBadge(data.license)};
   ## Table of Contents
   [Description](#description)<br>
   [Installation](#installation)<br>
