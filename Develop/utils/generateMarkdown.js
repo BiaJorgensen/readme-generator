@@ -1,13 +1,13 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-license.license === 'None' ? "" : renderLicenseLink()
+function renderLicenseBadge(data) {
+data.license === 'None' ? "" : renderLicenseLink(data.license);
 
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
+function renderLicenseLink(data) {
   const licenses = [
     {license: 'Apache 2.0 License',link: '[![License](https://img.shields.io/badge/License-Apache_2.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)'},
     {license: 'Boost Software License 1.0',link: '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)'},
@@ -42,6 +42,13 @@ function renderLicenseLink(license) {
     {license: 'The zlib/libpng License',link: '[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)'},
   ];
   
+  for (const link of licenses){
+    if (link.license === data) {
+      console.log(link.link);
+    }
+  }
+
+  
 }
 
 // TODO: Create a function that returns the license section of README
@@ -50,6 +57,7 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  renderLicenseBadge(data);
   return `# ${data.title}
   ## Table of Contents
   [Description](#description)<br>
@@ -78,7 +86,4 @@ function generateMarkdown(data) {
 `;
 }
 
-module.exports = {
-  generateMarkdown,
-  renderLicenseBadge,
-}
+module.exports = generateMarkdown
