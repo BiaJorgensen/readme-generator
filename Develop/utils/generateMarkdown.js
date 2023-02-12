@@ -4,12 +4,12 @@ function renderLicenseBadge(license) {
   if (license === 'None') ""
  else {
   const licenses = [
-  {license: 'Apache 2.0 License',badge: '[![License](https://img.shields.io/badge/License-Apache_2.0-yellowgreen.svg)]'},
-  {license: 'Boost Software License 1.0',badge: '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]'},
-  {license: 'BSD 3-Clause License',badge: '[![License](https://img.shields.io/badge/License-BSD_3--Clause-orange.svg)]'},
-  {license: 'BSD 2-Clause License',badge: '[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)]'},
-  {license: 'CC0',badge: '[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)]'},
-  {license: 'Attribution 4.0 International',badge: '[![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)]'},
+  {license: 'Apache 2.0 License',badge: '![License](https://img.shields.io/badge/License-Apache_2.0-yellowgreen.svg)'},
+  {license: 'Boost Software License 1.0',badge: '![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)'},
+  {license: 'BSD 3-Clause License',badge: '![License](https://img.shields.io/badge/License-BSD_3--Clause-orange.svg)'},
+  {license: 'BSD 2-Clause License',badge: '![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)'},
+  {license: 'CC0',badge: '![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)'},
+  {license: 'Attribution 4.0 International',badge: '![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)'},
   {license: 'Attribution-ShareAlike 4.0 International',badge: '[![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)]'},
   {license: 'Attribution-NonCommercial 4.0 International',badge: '[![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)]'},
   {license: 'Attribution-NoDerivates 4.0 International',badge: '[![License: CC BY-ND 4.0](https://licensebuttons.net/l/by-nd/4.0/80x15.png)]'},
