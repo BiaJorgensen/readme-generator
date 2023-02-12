@@ -1,26 +1,29 @@
-# q
-  
+# README Generator
+  ![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)
   ## Table of Contents
   [Description](#description)<br>
   [Installation](#installation)<br>
   [Usage](#usage)<br>
   [Credits](#credits)<br>
-  
+  [License](#license)<br>
   
   [Contributing](#contributing)<br>
   [Tests](#tests)<br>
   [Questions](#questions)<br>
   ## Description
-  w
+  Project Description
   ## Installation
-  e
+  node.js
   ## Usage
-  r
-  
+  This is how it is used
+  ## License
+  The license for this project is Boost Software License 1.0<br>
+  To learn more about this license, please access https://www.boost.org/LICENSE_1_0.txt
+
   ## Contributing
-  t
+  N/A
   ## Tests
-  y
+  
   ## Questions
-  Visit my GitHub profile page: https://github.com/u<br>
-  If you have additional questions, please send an email to i
+  Visit my GitHub profile page: https://github.com/BiaJorgensen<br>
+  If you have additional questions, please send an email to souzabeatriz17@gmail.com
