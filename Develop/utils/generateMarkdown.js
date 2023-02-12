@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license === 'None') ""
+  if (license === 'None') return ""
  else {
   const licenses = [
   {license: 'Apache 2.0 License',badge: '![License](https://img.shields.io/badge/License-Apache_2.0-yellowgreen.svg)'},
@@ -49,7 +49,7 @@ for (const badge of licenses){
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license === 'None') ""
+  if (license === 'None') return ""
  else {
   const licenses = [
     {license: 'Apache 2.0 License',link: 'https://opensource.org/licenses/Apache-2.0'},
@@ -95,7 +95,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license === 'None') ""
+  if (license === 'None') return ""
  else {return `## License
   The license for this project is ${license}<br>
   To learn more about this license, please access ${renderLicenseLink(license)}
