@@ -1,4 +1,4 @@
-# q [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+# Project Name [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
   ## Table of Contents
   [Description](#description)<br>
   [Installation](#installation)<br>
@@ -9,19 +9,19 @@
   [Tests](#tests)<br>
   [Questions](#questions)<br>
   ## Description
-  w
+  Short description of the project.
   ## Installation
-  e
+  Instructions for installing the project.
   ## Usage
-  r
+  Instructions for using the project.
   ## License
-  The license for this project is **Boost Software License 1.0**<br>
-  To learn more about this license, please access https://www.boost.org/LICENSE_1_0.txt
+  The license for this project is **Mozilla Public License 2.0**<br>
+  To learn more about this license, please access https://opensource.org/licenses/MPL-2.0
 
   ## Contributing
-  t
+  Guidelines for contributing to the project.
   ## Tests
-  y
+  Explain how to run the tests and provide examples of expected results.
   ## Questions
-  Visit my GitHub profile page: https://github.com/a<br>
-  If you have additional questions, please send an email to s
+  Visit my GitHub profile page: https://github.com/BiaJorgensen<br>
+  If you have additional questions, please send an email to souzabeatriz17@gmail.com
