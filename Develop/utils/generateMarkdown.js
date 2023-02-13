@@ -113,7 +113,6 @@ function generateMarkdown(data) {
   [Usage](#usage)<br>
   [Credits](#credits)<br>
   ${data.license === 'None' ? "" : "[License](#license)<br>"}
-  
   [Contributing](#contributing)<br>
   [Tests](#tests)<br>
   [Questions](#questions)<br>

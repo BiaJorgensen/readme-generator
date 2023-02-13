@@ -17,7 +17,7 @@ const questions = [{
   {
     type: 'input',
     name: 'installation',
-    message: 'Please enter installation instructions, if none, enter "N/A":',
+    message: 'Please enter installation instructions:',
   },
   {
     type: 'input',
@@ -27,12 +27,12 @@ const questions = [{
   {
     type: 'input',
     name: 'contribution',
-    message: 'Please enter contribution guidelines, if none, enter "N/A":',
+    message: 'Please enter contribution guidelines:',
   },
   {
     type: 'input',
     name: 'test',
-    message: 'Please enter test instruction, if none, enter "N/A":',
+    message: 'Please enter test instruction:',
   },
   {
     type: 'list',

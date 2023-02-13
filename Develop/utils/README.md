@@ -1,5 +1,5 @@
-# README Generator
-  ![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)
+# Project Name
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Table of Contents
   [Description](#description)<br>
   [Installation](#installation)<br>
@@ -11,19 +11,19 @@
   [Tests](#tests)<br>
   [Questions](#questions)<br>
   ## Description
-  Project Description
+  Description
   ## Installation
-  node.js
+  Install
   ## Usage
-  This is how it is used
+  Usage
   ## License
-  The license for this project is Boost Software License 1.0<br>
-  To learn more about this license, please access https://www.boost.org/LICENSE_1_0.txt
+  The license for this project is The MIT License<br>
+  To learn more about this license, please access https://opensource.org/licenses/MIT
 
   ## Contributing
-  N/A
+  Contribution
   ## Tests
-  
+  Instructions
   ## Questions
-  Visit my GitHub profile page: https://github.com/BiaJorgensen<br>
-  If you have additional questions, please send an email to souzabeatriz17@gmail.com
+  Visit my GitHub profile page: https://github.com/username<br>
+  If you have additional questions, please send an email to email
