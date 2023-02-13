@@ -22,7 +22,7 @@ N/A
 
 ## License
 
-The license for this project is The MIT License.<br>
+The license for this project is The MIT License<br>
 To learn more about this license, please access https://opensource.org/licenses/MIT
 
 ## Walkthrough Video

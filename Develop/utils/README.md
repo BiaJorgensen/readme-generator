@@ -15,7 +15,7 @@
   ## Usage
   Instructions for using the project.
   ## License
-  The license for this project is Mozilla Public License 2.0.<br>
+  The license for this project is **Mozilla Public License 2.0**<br>
   To learn more about this license, please access https://opensource.org/licenses/MPL-2.0
 
   ## Contributing
