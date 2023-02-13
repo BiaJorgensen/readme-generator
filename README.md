@@ -1,7 +1,7 @@
 # README Generator ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-README Generator project is a command line (CLI) application that allows users to easily create a professional README for their projects by answering a few questions on the command-line.\
+README Generator project is a command line (CLI) application that allows users to easily create a professional README for their projects by answering a few questions on the CLI.\
 This project is part of a challenge from Full Stack Coding Bootcamp at the University of Minnesota.
 
 
@@ -22,7 +22,7 @@ N/A
 
 ## License
 
-The license for this project is The MIT License<br>
+The license for this project is The MIT License.<br>
 To learn more about this license, please access https://opensource.org/licenses/MIT
 
 ## Walkthrough Video

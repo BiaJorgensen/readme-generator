@@ -1,29 +1,27 @@
-# Project Name
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# Project Name ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
   ## Table of Contents
   [Description](#description)<br>
   [Installation](#installation)<br>
   [Usage](#usage)<br>
   [Credits](#credits)<br>
   [License](#license)<br>
-  
   [Contributing](#contributing)<br>
   [Tests](#tests)<br>
   [Questions](#questions)<br>
   ## Description
-  Description
+  Short description of the project.
   ## Installation
-  Install
+  Instructions for installing the project.
   ## Usage
-  Usage
+  Instructions for using the project.
   ## License
-  The license for this project is The MIT License<br>
-  To learn more about this license, please access https://opensource.org/licenses/MIT
+  The license for this project is Mozilla Public License 2.0.<br>
+  To learn more about this license, please access https://opensource.org/licenses/MPL-2.0
 
   ## Contributing
-  Contribution
+  Guidelines for contributing to the project.
   ## Tests
-  Instructions
+  Explain how to run tests and provide examples of expected results.
   ## Questions
-  Visit my GitHub profile page: https://github.com/username<br>
-  If you have additional questions, please send an email to email
+  Visit my GitHub profile page: https://github.com/BiaJorgensen<br>
+  If you have additional questions, please send an email to souzabeatriz17@gmail.com
