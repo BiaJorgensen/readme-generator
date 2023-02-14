@@ -26,3 +26,5 @@ The license for this project is **The MIT License**<br>
 To learn more about this license, please access https://opensource.org/licenses/MIT
 
 ## Walkthrough Video
+[Link to the walkthrough video](https://drive.google.com/file/d/1IFesRCLVC6mahWcjr8UpyDjaLTAO42vL/view?usp=share_link)<br><br>
+<kbd>![README-Generator](./Develop/utils/assets/readme-generator.gif)</kbd>
