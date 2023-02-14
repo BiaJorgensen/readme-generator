@@ -11,7 +11,7 @@ For this application, please use https://nodejs.org/en/ to install Node.js (vers
 
 ## Usage
 To create a README using this app, user needs to do the following:
-1. Clone this project's repository to local machine by using SSH Key git@github.com:BiaJorgensen/readme-generator.git
+1. Clone this project's repository to local machine by using SSH Key `git@github.com:BiaJorgensen/readme-generator.git`
 1. In the CLI, navigate to index.js (./Develop/utils/index.js) and type "node index.js" to run the app.
 1. A series of questions will show up (one at a time).
 1. After all questions are answered, the README will be created and added to the "Generated README" folder.
