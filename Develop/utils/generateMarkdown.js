@@ -98,8 +98,7 @@ function renderLicenseSection(license) {
   if (license === 'None') return ""
  else {return `## License
   The license for this project is **${license}**<br>
-  To learn more about this license, please access ${renderLicenseLink(license)}
-`
+  To learn more about this license, please access ${renderLicenseLink(license)}`
  }
 }
 
