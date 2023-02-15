@@ -1,15 +1,18 @@
 // TODO: Include packages needed for this application
+// Loading Inquirer Package into file
 const inquirer = require('inquirer');
+// Loading File System into file
 const fs = require('fs');
+// Loading generateMarkdown.js into file
 const generateMarkdown = require('./generateMarkdown')
 
 // TODO: Create an array of questions for user input
 const questions = [{
-  type: 'input',
-  name: 'title',
-  message: 'What is the name of your project?',
-},
-{
+    type: 'input',
+    name: 'title',
+    message: 'What is the name of your project?',
+  },
+  {
     type: 'input',
     name: 'description',
     message: 'Please describe your project:',
@@ -49,10 +52,12 @@ const questions = [{
     type: 'input',
     name: 'email',
     message: 'What is your email?',
-  }];
+  }
+];
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
+  // Writing a markdown file using the generateMarkdown funtion
   fs.writeFile('./Generated README/README.md', generateMarkdown(data), (err) => {
     if (err) throw err;
     console.log('README.md has been created');
@@ -61,11 +66,11 @@ function writeToFile(data) {
 
 // TODO: Create a function to initialize app
 function init() {
+  // Using Inquirer Package to show questions on CLI
   inquirer
   .prompt(questions)
+  // After the questions are answered, call writeToFile function passing the inputs as a parameter
     .then((data) => {writeToFile(data)})
-    
- 
 }
 
 // Function call to initialize app
